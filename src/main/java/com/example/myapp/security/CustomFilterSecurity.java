@@ -57,7 +57,7 @@ public class CustomFilterSecurity extends OncePerRequestFilter  {
             
         }
         catch (Exception e) {
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "asd");
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Tu autenticación ha fallado");
         }
         
         
